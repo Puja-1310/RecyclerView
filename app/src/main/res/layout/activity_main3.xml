@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/download"
+    tools:context=".MainActivity3">
+    <EditText
+        android:id="@+id/editTextStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Name"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/editTextStudentRollNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student RollNo"
+        android:padding="5dp"
+        android:inputType="number"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/editTextStudentDivision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Division"
+        android:inputType="textCapWords"
+        android:padding="5dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/editTextStudentAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Address"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/editTextStudentAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Age"
+        android:inputType="number"
+        android:padding="5dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/editTextStudentGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Gender"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/editTextStudentSurName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student SurName"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/editTextStudentHometown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Hometown"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textColor="@color/black"/>
+    <Button
+        android:id="@+id/buttonAddStudentDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add Student Details"/>
+    <Button
+        android:id="@+id/buttonGetAllStudentData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Display Student Data"/>
+    <Button
+        android:id="@+id/buttonUpdateStudentDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Update Student Details"/>
+    <Button
+        android:id="@+id/buttonDeleteStudentData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Delete Student Data"/>
+    <Button
+        android:id="@+id/StudentDeleteColumn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Deleted Column" />
+    <Button
+        android:id="@+id/StdAddColumn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add Column" />
+
+
+
+</LinearLayout>

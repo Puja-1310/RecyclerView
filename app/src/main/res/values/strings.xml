@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+
+<!--    <dimen name="activity_horizontal_margin">16dp</dimen>-->
+<!--    <dimen name="activity_vertical_margin">15dp</dimen>-->
+    <dimen name="ic_clear_margin">56dp</dimen>
+    <!-- TODO: Remove or change this placeholder text -->
+<!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="title_activity_navigation_bottom">NavigationBottom</string>
+    <string name="home">Home</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="notifications">Notifications</string>
+</resources>

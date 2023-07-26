@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.recyclerView" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.ListView" parent="Base.Theme.recyclerView" >
+        <item name="colorPrimary">@color/primaryColor</item>
+    </style>
+
+</resources>
